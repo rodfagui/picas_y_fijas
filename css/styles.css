@@ -1,0 +1,71 @@
+body {
+  background-color: #F0F0F0;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+input[type=text].form-control {
+  width: 350px;
+  text-align: center;
+  color: #696969;
+  outline: none;
+  padding: 10px;
+  margin: 40px auto;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.alert {
+  margin: -40px auto 10px auto;
+  max-width: 350px;
+}
+
+.table {
+  background-color: white;
+}
+
+.results {
+  max-width: 450px;
+}
+
+.modal-footer{
+  border-top: none;
+}
+
+.modal h1{
+  font-size: 90px;
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 130px;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  color: white;
+  background-color: #f04500;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  position: absolute;
+  top: 330px;
+  left: 200px;
+}

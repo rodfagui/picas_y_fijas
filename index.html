@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Picas y Fijas</title>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center">Picas y Fijas</h1>
+      <h2 class="text-center">Ingresa 4 digitos diferentes y oprime Enter:</h2>
+      <div class="form-group">
+        <input type="text" class="form-control" id="userGuess">
+      </div>  
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-4">
+        <div class="alert alert-danger hidden">
+          <p>Sólo números de <strong>4 cifras</strong> que <strong>no</strong> se repitan</p>
+        </div>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th class="text-center">Número</th>
+              <th class="text-center">Picas</th>
+              <th class="text-center">Fijas</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <h1>¡Ganaste!</h1>
+        <div class="modal-footer">
+          <button type="button" class="button" data-dismiss="modal">Jugar Nuevamente</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
